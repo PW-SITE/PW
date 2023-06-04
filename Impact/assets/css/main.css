@@ -2667,3 +2667,7 @@ section {
 .footer .credits a {
   color: #fff;
 }
+
+.player-height {
+  height: 230px;
+}
