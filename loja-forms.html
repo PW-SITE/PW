@@ -109,26 +109,26 @@
         <div class="row">
           <div class="col-lg-6 offset-lg-3">
             <h2>Formulário de Vendas</h2>
-            <p>Preencha o seguinte formulário para concretizar a sua encomenda</p>
+            <p>Preencha o seguinte formulário para fazer a sua encomenda!</p>
             <form action="processar_venda.php" method="post">
               <div class="form-group">
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
+                <input type="text" id="nome" name="Nome" required>
               </div>
 
               <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="Email" required>
               </div>
 
               <div class="form-group">
                 <label for="telefone">Telefone:</label>
-                <input type="tel" id="telefone" name="telefone" required>
+                <input type="tel" id="telefone" name="Telefone" required>
               </div>
 
               <div class="form-group">
-                <label for="endereco">Endereço:</label>
-                <input type="text" id="endereco" name="endereco" required>
+                <label for="Morada">Endereço:</label>
+                <input type="text" id="morada" name="Morada" required>
               </div>
 
               <div class="form-group">
@@ -136,10 +136,10 @@
                 <select id="produto" name="produto">
                   <option value="tenis">Camisola Principal</option>
                   <option value="camiseta">Camisola alternativa</option>
-                  <option value="calca">Camisola + Calções</option>
-                  <option value="calca">Cachecol</option>
-                  <option value="calca">Caneca + Colher</option>
-                  <option value="calca">Garrafa de vinho</option>
+                  <option value="Camisola + Calções">Camisola + Calções</option>
+                  <option value="Cachecol">Cachecol</option>
+                  <option value="Caneca + Colher">Caneca + Colher</option>
+                  <option value="Garrafa de vinho">Garrafa de vinho</option>
                 </select>
               </div>
 
@@ -150,11 +150,11 @@
 
               <button type="submit">Enviar</button>
             </form>
-            <div id="success-message" style="display: none;">Enviado com sucesso!</div>
+        
           </div>
         </div>
       </div>
-    </section><!-- End Formulário de Vendas -->
+    </section><!-- Fim Formulário de Vendas -->
 
     <script>
       document.querySelector('#formulario-vendas form').addEventListener('submit', function(event) {
